@@ -1,2 +1,14 @@
 # git-repo-clean-pack
-A utility for automatically cloning a Git repository, deleting unnecessary files, creating a service file version.json and packing the selected directory into an archive.
+Описание:
+
+Этот Python-скрипт предназначен для:
+
+- Клонирования удалённого Git-репозитория;
+
+- Сохранения только указанной поддиректории (например, src/app);
+
+- Удаления всех остальных файлов и папок в репозитории (кроме .git);
+
+- Генерации файла version.json, содержащего информацию о версии и список исходных файлов (.py, .js, .sh);
+
+- Упаковки выбранной директории в .zip с именем формата <имя_папки><текущая_дата>.zip.
